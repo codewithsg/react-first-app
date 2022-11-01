@@ -1,0 +1,71 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sidebar-section{
+    flex: 3;
+    margin: 15px;
+    padding-bottom: 30px;
+    background-color:rgb(210, 213, 206);
+    border-radius: 12px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.sidebar-section .sub-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-title{
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 6px;
+    border-top: 1.5px solid var(--primary-color);
+    border-bottom: 1.5px solid var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.sidebar-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.sub-section >p{/*targets the first p tag inside the element which is using the class as sub-section*/
+    padding: 23px;
+    text-align: justify;
+}
+
+.sidebar-categories{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.sidebar-category{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-top: 6px;
+    cursor: pointer ;
+}
+
+.sidebar-social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon{
+    margin: 10px 30px;
+    cursor: pointer;/*shows hand curson on hover*/
+    font-size: 20px;
+    color: var(--primary-color);
+}
